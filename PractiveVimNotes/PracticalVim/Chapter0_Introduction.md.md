@@ -8,3 +8,4 @@
 
 `< > =` - indentation related commands
 
+`vim -u NONE -N` - start vim in default mode

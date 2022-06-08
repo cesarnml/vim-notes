@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "VimLectureNotes.md.md",
+            "file": "Chapter0_Introduction.md.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230
+    "width": 230,
+    "collapsed": true
   },
   "right": {
     "id": "359d62ea5ab27e78",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VimLectureNotes.md.md",
+                "file": "Chapter0_Introduction.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +90,8 @@
   },
   "active": "c30011b7872754e1",
   "lastOpenFiles": [
+    "Chapter0_Introduction.md.md",
     "VimLectureNotes.md.md",
-    "vimtutor.md.md",
-    "Chapter0_Introduction.md.md"
+    "vimtutor.md.md"
   ]
 }
