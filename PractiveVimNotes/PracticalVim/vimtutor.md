@@ -54,7 +54,7 @@ Operators, Counts, and Motions can be combined (e.g d3w)
 
 **cc** - change entire line
 
-**c$** - change to end of line
+**c$** - change to end of line - equivalent to **C**
 
 ## Lesson 4 - Hopping and Searching
 
