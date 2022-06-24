@@ -28,4 +28,4 @@
 ### Tip 12 - Combine and Conquer
 
 - `dap` deletes a paragraph
--
+- *An `action` is composed from an `operator` followed by a `motion`*
