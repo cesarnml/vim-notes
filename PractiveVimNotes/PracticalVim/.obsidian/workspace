@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vimtutor.md",
+            "file": "Chapter02_NormalMode.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vimtutor.md",
+                "file": "Chapter02_NormalMode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,9 +90,12 @@
   },
   "active": "c30011b7872754e1",
   "lastOpenFiles": [
+    "Chapter02_NormalMode.md",
+    "Chapter01_TheVimWay.md",
+    "Chapter00_Introduction.md",
+    "Primeagen Vim Guide.md",
     "vimtutor.md",
     "VimLectureNotes.md",
-    "Chapter01_TheVimWay.md",
     "Chapter0_Introduction.md"
   ]
 }
