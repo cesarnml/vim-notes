@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Chapter02_NormalMode.md",
+            "file": "Chapter03_InsertMode.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter02_NormalMode.md",
+                "file": "Chapter03_InsertMode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,12 +90,15 @@
   },
   "active": "c30011b7872754e1",
   "lastOpenFiles": [
+    "Chapter03_InsertMode.md",
+    "Chapter05_CommandLineMode.md",
+    "Chapter04_VisualMode.md",
     "Chapter02_NormalMode.md",
     "Chapter01_TheVimWay.md",
+    "Surround.vim.md",
     "Chapter00_Introduction.md",
     "Primeagen Vim Guide.md",
     "vimtutor.md",
-    "VimLectureNotes.md",
-    "Chapter0_Introduction.md"
+    "VimLectureNotes.md"
   ]
 }

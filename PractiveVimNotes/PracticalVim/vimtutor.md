@@ -1,7 +1,8 @@
 [BEGIN - 07 June 2022]
 
 ## Lesson 1  - Basics
-The basic movement in vim is accomplished with the right-hand, home row keys: 
+
+The basic movement in vim is accomplished with the right-hand, home row keys:
 
 **h** (left)
 **j** (down)
@@ -42,7 +43,7 @@ Operators, Counts, and Motions can be combined (e.g d3w)
 **CTRL-R** - undo the last undo
 
 
-## Lesson 3 - The Put/Replace/Change Operator 
+## Lesson 3 - The Put/Replace/Change Operator
 
 **p** - put previously deleted text after cursor (below current line)
 
