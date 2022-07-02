@@ -1,6 +1,12 @@
 # Chapter 05 - Command-Line Mode (28 pages)
 
+> In the beginning, there was ed, ed begat ex, and ex begat vi, and vi begat Vim
+>
+> - The Old Testament of Unix
+
 ## Tip 27 - Meet Vim's Command Line
+
+- *Ex commands strike far and wide*
 
 ## Tip 28 - Execute a Command on One or More Consecutive Lines
 

@@ -13,7 +13,7 @@
 
 ### Tip 09 - Compose Repeatable Changes
 
-- `daw` delete a wor (works great with the `.` operator
+- `daw` delete a word (works great with the `.` operator)
 - *Develop a habit of making your changes repeatable wherever possible, then Vim will reward you for it*
 
 ### Tip 10 - Use Counts to Do Simple Arithmetic
