@@ -36,12 +36,24 @@
 ## Tip 32 - Tab-Complete Your Ex Commands
 
 - Remember to make use of tab completions in Ex mod
+- `<C-d>` - invokes completion menu
 
 ## Tip 33 - Insert the Current Word at the Command Prompt
 
+- `<C-r><C-w>` - inserts current word in command line prompt (Doesn't work in vscode)
+:
 
 ## Tip 34 - Recall Commands from History
 
+- `q:` - opens command line menu (doesn't work in vscode)
+
 ## Tip 35 - Run Commands in the Shell
+
+- `:!` - runs command in shell (doesn't work in vscode)
+  - In vscode, output of external command is sent to neovim output console
+- `%` - in command line mode, % represents the current file name
+- `:shell` - opens (interactive) shell in command line mode (return to vim by typing `exit`)
+- `:write {cmd}` - buffer is provided as input to cmd
+- `:read {cmd}` - output of cmd is placed in buffer
 
 ## Tip 36 - Run Multiple Ex Commands as a Batch
