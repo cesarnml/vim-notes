@@ -57,3 +57,7 @@
 - `:read {cmd}` - output of cmd is placed in buffer
 
 ## Tip 36 - Run Multiple Ex Commands as a Batch
+
+- `:source` - to excecute a vim script; don't need leading `:`
+- `:argdo source [filename]` - to run script on multiple files
+
