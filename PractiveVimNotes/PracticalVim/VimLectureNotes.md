@@ -1,4 +1,5 @@
 [START 08 June 2022]
+
 - Vim is a modal editor
 
 `Esc` - Enter NORMAL mode
@@ -40,4 +41,11 @@
 `vsp` - split panel (VERTICAL)
 
 Also completed [EXERCISES]
+
+- Plugins to read about:
+  - `surround.vim`
+  - `repeat.vim`
+  - `matchit.vim`
+
+  -
 [DONE 8 June 2022]
