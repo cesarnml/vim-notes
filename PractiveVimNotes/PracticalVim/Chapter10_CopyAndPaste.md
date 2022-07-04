@@ -1,4 +1,4 @@
-# Chapter 10 - Copy and Paste
+# Chapter 10 - Copy and Paste (18 pages)
 
 ## Tip 60 - Delete, Yank, and Put with Vim's Unnamed Register
 

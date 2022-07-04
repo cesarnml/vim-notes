@@ -1,4 +1,4 @@
-# Chapter 11 - Macros
+# Chapter 11 - Macros (21 pages)
 
 ## Tip 65 - Record and Execute a Macro
 
