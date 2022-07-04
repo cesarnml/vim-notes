@@ -20,11 +20,22 @@
 
 ## Tip 50 - Find by Character
 
-
+- `f{char}` - move by character in current line, also `F, t, T`
 
 ## Tip 51 - Search to Navigate
 
+- `/{pattern}` - search forward for pattern, `?{pattern}` - search backward for pattern
+- Consider setting `hlsearch` and `incsearch` settings; relates keys `n` and `N` o hop
+- Using the `d{motion}` in combination with `/{pattern}` search is a powerful combination
+
 ## Tip 52 - Trace your Selection with Precision Text Objects
+
+- `t` - Text Object to reference HTML tags
+- `i` - Inside text object
+- `a` - All text object
+- `b` - parentheses delimiter
+- `B` - curly brackets delimter
+- Set of possible delimiters include: `), }, ], >, ', ", backtick, t, b, B`
 
 ## Tip 53 - Delete Around, or Change Inside
 
