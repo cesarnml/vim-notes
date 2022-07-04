@@ -6,4 +6,4 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/dnvim2 for more book information.
 #---
-cities = %w{London Berlin New\ York}
+cities = [London Berlin New\ York]

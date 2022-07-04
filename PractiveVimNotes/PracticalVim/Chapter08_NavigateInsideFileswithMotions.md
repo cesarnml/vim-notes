@@ -39,4 +39,19 @@
 
 ## Tip 53 - Delete Around, or Change Inside
 
+- `i/a w/W/s/p` - Text objects are powerful when combined with `w`ord, `W`ORD, `s`entence, `p`aragraph
+- Simple tip to use `a` when `d`eleting and `i` when `c`hanging
+
 ## Tip 54 - Mark Your Place and Snap Back to It
+
+- `m{a-zA-Z}` - mark a place in the file (capital are global)
+- ``{mark}` - go to the marked place
+- `double-backticks` - go to last jump in file
+- ``.` - go to last change location
+
+## Tip 55 - Jump Between Matching Parenthese
+
+- `%` - jumps between matching set of brackets
+- `S"` - surround the selection with double quotes (surround.vim)
+
+-
