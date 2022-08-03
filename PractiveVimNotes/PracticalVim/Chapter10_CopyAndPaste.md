@@ -2,6 +2,10 @@
 
 ## Tip 60 - Delete, Yank, and Put with Vim's Unnamed Register
 
+- `xp` - transpose the next to characters using the unamed register -- useful!!!
+- `ddp` - transpose the next two lines
+- `yyp` - linewise copy and paste
+
 ## Tip 61 - Grok Vim's Registers
 
 ## Tip 62 - Replace a Visual Selection with a Register
