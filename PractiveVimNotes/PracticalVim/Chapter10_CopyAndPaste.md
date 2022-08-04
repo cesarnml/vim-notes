@@ -10,8 +10,8 @@
 
 - `"{register}[delete | yank | put]` - copy to a named `register`
 - `_` - the `black hole` register (e.g. `_d{motion}` nothing escapes a black hole)
-- `""` - the `unnamed register`j
-- `x`, `s`, `d{motion}`, `c{moion}`, `y{motion}` - all write to register
+- `""` - the `unnamed register`
+- `x`, `s`, `d{motion}`, `c{motion}`, `y{motion}` - all write to register
 - `:reg` - inspect registers
 - lowercase registers `override` any existing text; uppercase registers `append` to existing content
 - `"+` - named register that reference the system clipboard
