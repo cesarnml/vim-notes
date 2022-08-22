@@ -1,7 +1,7 @@
 # Vim Consolidated Notes
 
 - [Vim Consolidated Notes](#vim-consolidated-notes)
-  - [VimTutor Notes](#vimtutor-notes)
+  - [VimTutor](#vimtutor)
     - [Lesson 1  - Basics](#lesson-1----basics)
     - [Lesson 2 - Deletion](#lesson-2---deletion)
     - [Lesson 3 - The Put/Replace/Change Operator](#lesson-3---the-putreplacechange-operator)
@@ -22,7 +22,7 @@
     - [Editing with VIM](#editing-with-vim)
     - [Modifiers in VIM](#modifiers-in-vim)
     - [Windows in VIM](#windows-in-vim)
-  - [Surround.vim Plugin Notes](#surroundvim-plugin-notes)
+  - [Surround.vim Plugin](#surroundvim-plugin)
     - [Change Surround](#change-surround)
     - [Delete Surround](#delete-surround)
     - [Yank(Add) Surround](#yankadd-surround)
@@ -100,7 +100,7 @@
       - [Tip 71 - Evaluate an Iterator to Number Items in a List](#tip-71---evaluate-an-iterator-to-number-items-in-a-list)
       - [Tip 72 - Edit the Contents of a Macro](#tip-72---edit-the-contents-of-a-macro)
 
-## VimTutor Notes
+## VimTutor
 
 ### Lesson 1  - Basics
 
@@ -241,6 +241,7 @@ SOME OPTIONS:
 
 **CTRL-W** - Jump to another window
 
+
 ## Primeagen Guide to VIM
 
 ### Basic Movement
@@ -336,7 +337,7 @@ Also completed [EXERCISES]
   - `repeat.vim`
   - `matchit.vim`
 
-## Surround.vim Plugin Notes
+## Surround.vim Plugin
 
 ### Change Surround
 
@@ -731,4 +732,3 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 #### Tip 72 - Edit the Contents of a Macro
 
 - skipping this as well, since I should first master basic macro syntax
-
