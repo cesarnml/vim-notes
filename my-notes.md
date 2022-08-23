@@ -2,7 +2,7 @@
 
 - [Vim Consolidated Notes](#vim-consolidated-notes)
   - [VimTutor](#vimtutor)
-    - [Lesson 1  - Basics](#lesson-1----basics)
+    - [Lesson 1 - Basics](#lesson-1----basics)
     - [Lesson 2 - Deletion](#lesson-2---deletion)
     - [Lesson 3 - The Put/Replace/Change Operator](#lesson-3---the-putreplacechange-operator)
     - [Lesson 4 - Hopping and Searching](#lesson-4---hopping-and-searching)
@@ -102,7 +102,7 @@
 
 ## VimTutor
 
-### Lesson 1  - Basics
+### Lesson 1 - Basics
 
 The basic movement in vim is accomplished with the right-hand, home row keys:
 
@@ -113,14 +113,13 @@ The basic movement in vim is accomplished with the right-hand, home row keys:
 
 **:q!** - Discards changes and exits vim
 
-**x** - Deletes the character under the cursor (*or to the right*)
+**x** - Deletes the character under the cursor (_or to the right_)
 
-**i** - Inserts text before the highlighted character (*or to the left*)
+**i** - Inserts text before the highlighted character (_or to the left_)
 
 **A** - appends text to the end of the line (very handy)
 
 **:wq** - Saves changes and quits vim
-
 
 ### Lesson 2 - Deletion
 
@@ -130,7 +129,7 @@ The basic movement in vim is accomplished with the right-hand, home row keys:
 
 **d$** - [delete] to end of [line]
 
-The first letter is an `operator`  followed by a `motion`
+The first letter is an `operator` followed by a `motion`
 
 Motions can be modified via `counts` (e.g. 3w, 2e)
 
@@ -143,7 +142,6 @@ Operators, Counts, and Motions can be combined (e.g d3w)
 **U** - undo all actions on current line
 
 **CTRL-R** - undo the last undo
-
 
 ### Lesson 3 - The Put/Replace/Change Operator
 
@@ -240,7 +238,6 @@ SOME OPTIONS:
 **CTRL-D** - Command line completion
 
 **CTRL-W** - Jump to another window
-
 
 ## Primeagen Guide to VIM
 
@@ -370,7 +367,7 @@ Also completed [EXERCISES]
 
 #### Tip 1 - Meet the Dot Command
 
-*The dot command lets us repeat the last change. It is the most powerful and versatile command in Vim.*
+_The dot command lets us repeat the last change. It is the most powerful and versatile command in Vim._
 
 - The `dot` command is a micro macro. haha!
 
@@ -399,12 +396,12 @@ Also completed [EXERCISES]
 
 #### Tip 6 - Meet the Dot Formula
 
-- *The goal: One Keystroke to Move, One Keystroke to Execute*
+- _The goal: One Keystroke to Move, One Keystroke to Execute_
 
 ### Chapter 02 - Normal Mode (12 pages)
 
 - `Normal` mode is Vim's natural resting mode
-- *Just as a painter spends a fraction of their time applying paint, programmers spend a fraction of their time composing code.*
+- _Just as a painter spends a fraction of their time applying paint, programmers spend a fraction of their time composing code._
 
 #### Tip 07 - Pause with Your Brush Off the Page
 
@@ -412,12 +409,12 @@ Also completed [EXERCISES]
 
 #### Tip 08 - Chunk Your Undos
 
-- Entering Insert mode and leaving to Normal *typically* corresponds to an `undo`able chunk
+- Entering Insert mode and leaving to Normal _typically_ corresponds to an `undo`able chunk
 
 #### Tip 09 - Compose Repeatable Changes
 
 - `daw` delete a word (works great with the `.` operator)
-- *Develop a habit of making your changes repeatable wherever possible, then Vim will reward you for it*
+- _Develop a habit of making your changes repeatable wherever possible, then Vim will reward you for it_
 
 #### Tip 10 - Use Counts to Do Simple Arithmetic
 
@@ -431,7 +428,7 @@ Also completed [EXERCISES]
 #### Tip 12 - Combine and Conquer
 
 - `dap` deletes a paragraph
-- *An `action` is composed from an `operator` followed by a `motion`*
+- _An `action` is composed from an `operator` followed by a `motion`_
 
 ### Chapter 03 Insert Mode (9 pages)
 
@@ -474,9 +471,9 @@ Also completed [EXERCISES]
 
 #### Tip 21 - Define a Visual Selection
 
-- `v` - *character-wise Visual mode*
-- `V` - *line-wise Visual mode*
-- `<C-v>` - *block-wise Visual mode*
+- `v` - _character-wise Visual mode_
+- `V` - _line-wise Visual mode_
+- `<C-v>` - _block-wise Visual mode_
 - `gv` - reselect the last visual selection
 - `o` go to end of highlighted text (ping-pong cursor)
   - `o` is handy for redefining the begin/end points of the selection
@@ -489,7 +486,7 @@ Also completed [EXERCISES]
 #### Tip 23 - Prefer Operators to Visual Commands Where Possible
 
 - `gU` - uppercase the following motion
-- *As a eneral rule, we should prefer operator commands over this Visual mode equivalents when working through a repetitive set of changes*
+- _As a eneral rule, we should prefer operator commands over this Visual mode equivalents when working through a repetitive set of changes_
 
 #### Tip 24 - Edit Tabular Data with Visual-Block Mode
 
@@ -517,7 +514,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 
 #### Tip 27 - Meet Vim's Command Line
 
-- *Ex commands strike far and wide*
+- _Ex commands strike far and wide_
 
 #### Tip 28 - Execute a Command on One or More Consecutive Lines
 
@@ -552,7 +549,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 #### Tip 33 - Insert the Current Word at the Command Prompt
 
 - `<C-r><C-w>` - inserts current word in command line prompt (Doesn't work in vscode)
-:
+  :
 
 #### Tip 34 - Recall Commands from History
 
@@ -634,8 +631,8 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 
 - `<C-o>` - goes backwards through the jump list
 - `<C-i>` - goes forwards through the jump list
-- `motions` - move around *within a file*
-- `jumps` - move around *between files*
+- `motions` - move around _within a file_
+- `jumps` - move around _between files_
 - `:jumps` - list the jump list
 - `(, )` - jump to previous/next sentence
 - `{, }` - jump to previous/next paragraph
@@ -682,7 +679,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 #### Tip 62 - Replace a Visual Selection with a Register
 
 - `v{motion}p` - replace visual selection with unnamed register content
-- *Think of it this way: the visual selection in the document swaps places with the text in the register. Is it a feature? Is it a bug? You decide.*
+- _Think of it this way: the visual selection in the document swaps places with the text in the register. Is it a feature? Is it a bug? You decide._
 
 #### Tip 63 - Paste from a Register
 
@@ -705,7 +702,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 
 #### Tip 66 - Normalze, Strike, Abort
 
-- *The golden rule is this: when recording a macro, ensure that every command is repetable.*
+- _The golden rule is this: when recording a macro, ensure that every command is repetable._
 - `w, b, e, ge` - are more reliable movements when recording a macro
 
 #### Tip 67 - Play Back with a Count
@@ -732,3 +729,5 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 #### Tip 72 - Edit the Contents of a Macro
 
 - skipping this as well, since I should first master basic macro syntax
+
+### Internet Article Notes
