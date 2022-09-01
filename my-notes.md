@@ -2,12 +2,12 @@
 
 - [Vim Consolidated Notes](#vim-consolidated-notes)
   - [VimTutor](#vimtutor)
-    - [Lesson 1 - Basics](#lesson-1----basics)
+    - [Lesson 1 - Basics](#lesson-1---basics)
     - [Lesson 2 - Deletion](#lesson-2---deletion)
     - [Lesson 3 - The Put/Replace/Change Operator](#lesson-3---the-putreplacechange-operator)
     - [Lesson 4 - Hopping and Searching](#lesson-4---hopping-and-searching)
-    - [Lesson 5 - External Commands & Visual Mode](#lesson-5---external-commands--visual-mode)
-    - [Lesson 6 - Open/Append/Copy & Paste - Set Option](#lesson-6---openappendcopy--paste---set-option)
+    - [Lesson 5 - External Commands \& Visual Mode](#lesson-5---external-commands--visual-mode)
+    - [Lesson 6 - Open/Append/Copy \& Paste - Set Option](#lesson-6---openappendcopy--paste---set-option)
     - [Lesson 7 - How to get Help](#lesson-7---how-to-get-help)
   - [Primeagen Guide to VIM](#primeagen-guide-to-vim)
     - [Basic Movement](#basic-movement)
@@ -71,14 +71,14 @@
       - [Tip 36 - Run Multiple Ex Commands as a Batch](#tip-36---run-multiple-ex-commands-as-a-batch)
     - [Chapter 08 - Navigate Inside Files with Motions (22 pages)](#chapter-08---navigate-inside-files-with-motions-22-pages)
       - [Tip 47 - Keep Your Fingers on the Home Row](#tip-47---keep-your-fingers-on-the-home-row)
-      - [Tip 48 - distinguish Betwen Real Lines and Display Lines](#tip-48---distinguish-betwen-real-lines-and-display-lines)
+      - [Tip 48 - distinguish Between Real Lines and Display Lines](#tip-48---distinguish-between-real-lines-and-display-lines)
       - [Tip 49 - Move Word-Wise](#tip-49---move-word-wise)
       - [Tip 50 - Find by Character](#tip-50---find-by-character)
       - [Tip 51 - Search to Navigate](#tip-51---search-to-navigate)
       - [Tip 52 - Trace your Selection with Precision Text Objects](#tip-52---trace-your-selection-with-precision-text-objects)
       - [Tip 53 - Delete Around, or Change Inside](#tip-53---delete-around-or-change-inside)
       - [Tip 54 - Mark Your Place and Snap Back to It](#tip-54---mark-your-place-and-snap-back-to-it)
-      - [Tip 55 - Jump Between Matching Parenthese](#tip-55---jump-between-matching-parenthese)
+      - [Tip 55 - Jump Between Matching Parentheses](#tip-55---jump-between-matching-parentheses)
     - [Chapter 09 - Navigate Between Files with Jumps (8 pages)](#chapter-09---navigate-between-files-with-jumps-8-pages)
       - [Tip 56 - Traverse the Jump List](#tip-56---traverse-the-jump-list)
       - [Tip 57 - Traverse the Change List](#tip-57---traverse-the-change-list)
@@ -92,13 +92,15 @@
       - [Tip 64 - Interact with the System Clipboard](#tip-64---interact-with-the-system-clipboard)
     - [Chapter 11 - Macros (21 pages)](#chapter-11---macros-21-pages)
       - [Tip 65 - Record and Execute a Macro](#tip-65---record-and-execute-a-macro)
-      - [Tip 66 - Normalze, Strike, Abort](#tip-66---normalze-strike-abort)
+      - [Tip 66 - Normalize, Strike, Abort](#tip-66---normalize-strike-abort)
       - [Tip 67 - Play Back with a Count](#tip-67---play-back-with-a-count)
       - [Tip 68 - Repeat a Change on Contiguous Lines](#tip-68---repeat-a-change-on-contiguous-lines)
       - [Tip 69 - Append Commands to a Macro](#tip-69---append-commands-to-a-macro)
       - [Tip 70 - Act Upon a Collection of Files](#tip-70---act-upon-a-collection-of-files)
       - [Tip 71 - Evaluate an Iterator to Number Items in a List](#tip-71---evaluate-an-iterator-to-number-items-in-a-list)
       - [Tip 72 - Edit the Contents of a Macro](#tip-72---edit-the-contents-of-a-macro)
+  - [Internet Article Notes](#internet-article-notes)
+    - [vscode-neovim github](#vscode-neovim-github)
 
 ## VimTutor
 
@@ -179,15 +181,15 @@ Operators, Counts, and Motions can be combined (e.g d3w)
 
 **CTRL-I** - hop to newer position
 
-**CRTL-W** - switches windows
+**CTRL-W** - switches windows
 
 **%** - hops to matching bracket
 
 **:s/old/new/[g]** - substitute command (for a single line)
 
-**:#,#s/old/new** - change occurence in between line number
+**:#,#s/old/new** - change occurrence in between line number
 
-**:%s/old/new/[g]** - change occurence in entire file
+**:%s/old/new/[g]** - change occurrence in entire file
 
 ### Lesson 5 - External Commands & Visual Mode
 
@@ -486,7 +488,7 @@ _The dot command lets us repeat the last change. It is the most powerful and ver
 #### Tip 23 - Prefer Operators to Visual Commands Where Possible
 
 - `gU` - uppercase the following motion
-- _As a eneral rule, we should prefer operator commands over this Visual mode equivalents when working through a repetitive set of changes_
+- _As a general rule, we should prefer operator commands over this Visual mode equivalents when working through a repetitive set of changes_
 
 #### Tip 24 - Edit Tabular Data with Visual-Block Mode
 
@@ -539,7 +541,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 #### Tip 31 - Repeat the Last Ex Command
 
 - `@:` - repeat last Ex command; use `@@` - after one repeat for multiple repeats
-- `<C-o>` - goes one step back in the jump list (maynot work because of my funcy ctrl scheme)
+- `<C-o>` - goes one step back in the jump list (may not work because of my fancy ctrl scheme)
 
 #### Tip 32 - Tab-Complete Your Ex Commands
 
@@ -566,7 +568,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 
 #### Tip 36 - Run Multiple Ex Commands as a Batch
 
-- `:source` - to excecute a vim script; don't need leading `:`
+- `:source` - to execute a vim script; don't need leading `:`
 - `:argdo source [filename]` - to run script on multiple files
 
 ### Chapter 08 - Navigate Inside Files with Motions (22 pages)
@@ -575,11 +577,11 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 
 - Just a reminder to use `h (left), j (down), k (up), l (right)` for movement in place of the arrow keys
 
-#### Tip 48 - distinguish Betwen Real Lines and Display Lines
+#### Tip 48 - distinguish Between Real Lines and Display Lines
 
 - `gj and gk` - move down/up display line wise
-- `^` - move to first nonblank character of a display line
-- Basically prefix the real line movement keys with `g` to get the analoues display line movemen
+- `^` - move to first non-blank character of a display line
+- Basically prefix the real line movement keys with `g` to get the analogues display line movement
 
 #### Tip 49 - Move Word-Wise
 
@@ -605,7 +607,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 - `i` - Inside text object
 - `a` - All text object
 - `b` - parentheses delimiter
-- `B` - curly brackets delimter
+- `B` - curly brackets delimiter
 - Set of possible delimiters include: `), }, ], >, ', ", backtick, t, b, B`
 
 #### Tip 53 - Delete Around, or Change Inside
@@ -620,7 +622,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 - `double-backticks` - go to last jump in file
 - ``.` - go to last change location
 
-#### Tip 55 - Jump Between Matching Parenthese
+#### Tip 55 - Jump Between Matching Parentheses
 
 - `%` - jumps between matching set of brackets
 - `S"` - surround the selection with double quotes (surround.vim)
@@ -646,7 +648,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 #### Tip 58 - Jump to the Filename Under the Cursor
 
 - `gf` - navigates to filename under cursor (`go to file`)
-- `bundler.vim` - might be a useful plugin to incorporate to enahnce gf power
+- `bundler.vim` - might be a useful plugin to incorporate to enhance gf power
 - `<C-]>` - jump to method definition from invocation (may need some initial config to work)
 
 #### Tip 59 - Snap Between Files Using Global Marks
@@ -661,9 +663,9 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 
 #### Tip 60 - Delete, Yank, and Put with Vim's Unnamed Register
 
-- `xp` - transpose the next to characters using the unamed register -- useful!!!
+- `xp` - transpose the next to characters using the unnamed register -- useful!!!
 - `ddp` - transpose the next two lines
-- `yyp` - linewise copy and paste
+- `yyp` - line-wise copy and paste
 
 #### Tip 61 - Grok Vim's Registers
 
@@ -685,7 +687,7 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 
 - `p/P` - inserts register text `after` and `before` cursor position
 - `<ctrl-r>{register}` - inserts register text while in INSERT or COMMAND mode
-- `gp/gP` - alter the position of the cursor afte the put operation. This is useful for pasting a block of text into a document.
+- `gp/gP` - alter the position of the cursor after the put operation. This is useful for pasting a block of text into a document.
 
 #### Tip 64 - Interact with the System Clipboard
 
@@ -700,9 +702,9 @@ In the beginning, there was ed. ed begat ex, and ex begat vi, and vi begat Vim.
 - `@@` - executes the contents of the last executed macro
 - macros can be executed `serial` or in `parallel`
 
-#### Tip 66 - Normalze, Strike, Abort
+#### Tip 66 - Normalize, Strike, Abort
 
-- _The golden rule is this: when recording a macro, ensure that every command is repetable._
+- _The golden rule is this: when recording a macro, ensure that every command is repeatable._
 - `w, b, e, ge` - are more reliable movements when recording a macro
 
 #### Tip 67 - Play Back with a Count
