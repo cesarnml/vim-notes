@@ -111,7 +111,7 @@ The basic movement in vim is accomplished with the right-hand, home row keys:
 **h** (left)
 **j** (down)
 **k** (up)
-**i** (right)
+**l** (right)
 
 **:q!** - Discards changes and exits vim
 
