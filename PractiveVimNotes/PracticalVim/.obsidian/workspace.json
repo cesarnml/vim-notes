@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "706ad006ef2bf270",
+    "type": "split",
+    "children": [
+      {
+        "id": "b45232851d4c95d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c30011b7872754e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter03_InsertMode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "71b04575414b99d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "64d8dd824e008873",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01be057087a810a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "59eebde83d5418c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 230,
+    "collapsed": true
+  },
+  "right": {
+    "id": "359d62ea5ab27e78",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0e0472b702cc4c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d58569ad321c2bda",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chapter03_InsertMode.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "c30011b7872754e1",
+  "lastOpenFiles": [
+    "Chapter03_InsertMode.md",
+    "Chapter05_CommandLineMode.md",
+    "Chapter04_VisualMode.md",
+    "Chapter02_NormalMode.md",
+    "Chapter01_TheVimWay.md",
+    "Surround.vim.md",
+    "Chapter00_Introduction.md",
+    "Primeagen Vim Guide.md",
+    "vimtutor.md",
+    "VimLectureNotes.md"
+  ]
+}
